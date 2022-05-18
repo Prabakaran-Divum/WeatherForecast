@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: 9855670c8f16d69d65cdf41fb2baa9ca47054091
+PODS:
+  - Alamofire (4.9.1)
+  - lottie-ios (3.3.0)
+  - SwiftLint (0.47.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - lottie-ios
+  - SwiftLint
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - SwiftLint
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  SwiftLint: d41cc46a2ae58ac6d9f26954bc89f1d72e71fdef
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: f41032d291c0c3ec2ecf5a20c60bfd82fe5a1140
 
 COCOAPODS: 1.11.3
