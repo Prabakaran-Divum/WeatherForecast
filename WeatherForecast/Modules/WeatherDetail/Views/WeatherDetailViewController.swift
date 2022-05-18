@@ -8,7 +8,7 @@
 import UIKit
 
 class WeatherDetailViewController: UIViewController {
-
+    @IBOutlet weak var weatherDetailContainerView: WeatherDetailContainerView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

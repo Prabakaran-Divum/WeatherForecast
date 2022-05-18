@@ -8,7 +8,7 @@
 import UIKit
 
 class SearchResultViewController: UIViewController {
-
+    @IBOutlet weak var searchResultContainerView: SearchResultContainerView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
