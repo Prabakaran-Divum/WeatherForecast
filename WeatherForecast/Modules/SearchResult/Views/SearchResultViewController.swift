@@ -9,21 +9,26 @@ import UIKit
 
 class SearchResultViewController: UIViewController {
     @IBOutlet weak var searchResultContainerView: SearchResultContainerView!
+    let searchResultViewModel = SearchResultViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupSearchViewContainerView()
         // Do any additional setup after loading the view.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func setupSearchViewContainerView() {
+        searchResultContainerView.delegate = self
+        searchResultContainerView.setupSearchResultContainerView(foreCastInfo: searchResultViewModel.foreCastInfo)
     }
-    */
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let weatherDetailViewController = segue.destination as?  WeatherDetailViewController {
+            let cityName = searchResultViewModel.cityName
+            navigationItem.backBarButtonItem = UIBarButtonItem(
+                title: cityName, style: .plain, target: nil, action: nil)
+            weatherDetailViewController.weatherDetailViewModel.foreCast = searchResultViewModel.selectedforeCastItem
+        }
+    }
 
 }

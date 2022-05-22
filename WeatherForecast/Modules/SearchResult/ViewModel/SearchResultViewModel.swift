@@ -14,5 +14,8 @@ protocol SearchResultViewModelDelegate: AnyObject {
 }
 
 class SearchResultViewModel {
+    var cityName: String = ""
+    var foreCastInfo: ForecastModel!
+    var selectedforeCastItem: Forecast!
     weak var delegate: SearchResultViewModelDelegate?
 }

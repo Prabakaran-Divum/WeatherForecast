@@ -14,5 +14,6 @@ protocol WeatherDetailViewModelDelegate: AnyObject {
 }
 
 class WeatherDetailViewModel {
+    var foreCast: Forecast!
     weak var delegate: WeatherDetailViewModelDelegate?
 }

@@ -27,6 +27,21 @@
 		90B0D9B32839E6C900ABDC07 /* Constant+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9B22839E6C900ABDC07 /* Constant+API.swift */; };
 		90B0D9B72839EB3500ABDC07 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9B62839EB3500ABDC07 /* ForecastModel.swift */; };
 		90B0D9B92839F1BF00ABDC07 /* ApiHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9B82839F1BF00ABDC07 /* ApiHeader.swift */; };
+		90B0D9BD283A1C3E00ABDC07 /* TableViewCellSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9BC283A1C3E00ABDC07 /* TableViewCellSetup.swift */; };
+		90B0D9C0283A1CAF00ABDC07 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9BE283A1CAF00ABDC07 /* SearchTableViewCell.swift */; };
+		90B0D9C1283A1CAF00ABDC07 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B0D9BF283A1CAF00ABDC07 /* SearchTableViewCell.xib */; };
+		90B0D9C3283A1E4A00ABDC07 /* SearchTableViewCellSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9C2283A1E4A00ABDC07 /* SearchTableViewCellSetup.swift */; };
+		90B0D9C5283A1EFA00ABDC07 /* SearchTableViewCell+UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9C4283A1EFA00ABDC07 /* SearchTableViewCell+UITextFieldDelegate.swift */; };
+		90B0D9C7283A1FB700ABDC07 /* SearchViewContainerView+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9C6283A1FB700ABDC07 /* SearchViewContainerView+UITableView.swift */; };
+		90B0D9C9283A208400ABDC07 /* SearchViewContainerView+ISearchViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9C8283A208400ABDC07 /* SearchViewContainerView+ISearchViewContainerView.swift */; };
+		90B0D9CB283A236F00ABDC07 /* SearchViewController+SearchViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9CA283A236F00ABDC07 /* SearchViewController+SearchViewContainerView.swift */; };
+		90B0D9CD283A633900ABDC07 /* SearchViewController+SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9CC283A633900ABDC07 /* SearchViewController+SearchViewModel.swift */; };
+		90B0D9D1283A6B2E00ABDC07 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9CF283A6B2E00ABDC07 /* SearchResultTableViewCell.swift */; };
+		90B0D9D2283A6B2E00ABDC07 /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B0D9D0283A6B2E00ABDC07 /* SearchResultTableViewCell.xib */; };
+		90B0D9D4283A6B4500ABDC07 /* SearchResultTableViewCellSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9D3283A6B4500ABDC07 /* SearchResultTableViewCellSetup.swift */; };
+		90B0D9D6283A6EA600ABDC07 /* SearchResultContainerView+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9D5283A6EA600ABDC07 /* SearchResultContainerView+UITableView.swift */; };
+		90B0D9D8283A782900ABDC07 /* SearchResultContainerView+ISearchResultContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9D7283A782900ABDC07 /* SearchResultContainerView+ISearchResultContainerView.swift */; };
+		90B0D9DA283A7F4000ABDC07 /* SearchResultViewController+SearchResultContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D9D9283A7F4000ABDC07 /* SearchResultViewController+SearchResultContainerView.swift */; };
 		90E7F31D28349401007B1F23 /* SearchViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7F31C28349401007B1F23 /* SearchViewContainerView.swift */; };
 		90E7F31F28349417007B1F23 /* SearchViewContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F31E28349417007B1F23 /* SearchViewContainerView.xib */; };
 		90E7F32128349733007B1F23 /* SearchResultContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90E7F32028349733007B1F23 /* SearchResultContainerView.xib */; };
@@ -81,6 +96,21 @@
 		90B0D9B22839E6C900ABDC07 /* Constant+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+API.swift"; sourceTree = "<group>"; };
 		90B0D9B62839EB3500ABDC07 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 		90B0D9B82839F1BF00ABDC07 /* ApiHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHeader.swift; sourceTree = "<group>"; };
+		90B0D9BC283A1C3E00ABDC07 /* TableViewCellSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellSetup.swift; sourceTree = "<group>"; };
+		90B0D9BE283A1CAF00ABDC07 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		90B0D9BF283A1CAF00ABDC07 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		90B0D9C2283A1E4A00ABDC07 /* SearchTableViewCellSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCellSetup.swift; sourceTree = "<group>"; };
+		90B0D9C4283A1EFA00ABDC07 /* SearchTableViewCell+UITextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchTableViewCell+UITextFieldDelegate.swift"; sourceTree = "<group>"; };
+		90B0D9C6283A1FB700ABDC07 /* SearchViewContainerView+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewContainerView+UITableView.swift"; sourceTree = "<group>"; };
+		90B0D9C8283A208400ABDC07 /* SearchViewContainerView+ISearchViewContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewContainerView+ISearchViewContainerView.swift"; sourceTree = "<group>"; };
+		90B0D9CA283A236F00ABDC07 /* SearchViewController+SearchViewContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+SearchViewContainerView.swift"; sourceTree = "<group>"; };
+		90B0D9CC283A633900ABDC07 /* SearchViewController+SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+SearchViewModel.swift"; sourceTree = "<group>"; };
+		90B0D9CF283A6B2E00ABDC07 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		90B0D9D0283A6B2E00ABDC07 /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		90B0D9D3283A6B4500ABDC07 /* SearchResultTableViewCellSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCellSetup.swift; sourceTree = "<group>"; };
+		90B0D9D5283A6EA600ABDC07 /* SearchResultContainerView+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchResultContainerView+UITableView.swift"; sourceTree = "<group>"; };
+		90B0D9D7283A782900ABDC07 /* SearchResultContainerView+ISearchResultContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchResultContainerView+ISearchResultContainerView.swift"; sourceTree = "<group>"; };
+		90B0D9D9283A7F4000ABDC07 /* SearchResultViewController+SearchResultContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchResultViewController+SearchResultContainerView.swift"; sourceTree = "<group>"; };
 		90E7F31C28349401007B1F23 /* SearchViewContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewContainerView.swift; sourceTree = "<group>"; };
 		90E7F31E28349417007B1F23 /* SearchViewContainerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewContainerView.xib; sourceTree = "<group>"; };
 		90E7F32028349733007B1F23 /* SearchResultContainerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultContainerView.xib; sourceTree = "<group>"; };
@@ -179,6 +209,7 @@
 				900D8E3428348BF900955D5E /* Models */,
 				900D8E3028348B6300955D5E /* Modules */,
 				90E7F3282834A1A2007B1F23 /* Constants */,
+				90B0D9BB283A1C1C00ABDC07 /* Helper */,
 				900D8E0628347F7800955D5E /* Main.storyboard */,
 				900D8E0928347F7A00955D5E /* Assets.xcassets */,
 				900D8E0B28347F7A00955D5E /* LaunchScreen.storyboard */,
@@ -253,6 +284,8 @@
 			isa = PBXGroup;
 			children = (
 				900D8E0428347F7800955D5E /* SearchViewController.swift */,
+				90B0D9CA283A236F00ABDC07 /* SearchViewController+SearchViewContainerView.swift */,
+				90B0D9CC283A633900ABDC07 /* SearchViewController+SearchViewModel.swift */,
 				900D8E3B28348CA500955D5E /* SubViews */,
 			);
 			path = Views;
@@ -262,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				900D8E4428348E2000955D5E /* SearchResultViewController.swift */,
+				90B0D9D9283A7F4000ABDC07 /* SearchResultViewController+SearchResultContainerView.swift */,
 				900D8E3C28348CA900955D5E /* SubViews */,
 			);
 			path = Views;
@@ -303,8 +337,11 @@
 		900D8E3B28348CA500955D5E /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				90B0D9BA283A1BB100ABDC07 /* SearchTableViewCell */,
 				90E7F31C28349401007B1F23 /* SearchViewContainerView.swift */,
 				90E7F31E28349417007B1F23 /* SearchViewContainerView.xib */,
+				90B0D9C6283A1FB700ABDC07 /* SearchViewContainerView+UITableView.swift */,
+				90B0D9C8283A208400ABDC07 /* SearchViewContainerView+ISearchViewContainerView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -312,8 +349,11 @@
 		900D8E3C28348CA900955D5E /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				90B0D9CE283A6B0700ABDC07 /* SearchResultTableViewCell */,
 				90E7F32228349747007B1F23 /* SearchResultContainerView.swift */,
 				90E7F32028349733007B1F23 /* SearchResultContainerView.xib */,
+				90B0D9D5283A6EA600ABDC07 /* SearchResultContainerView+UITableView.swift */,
+				90B0D9D7283A782900ABDC07 /* SearchResultContainerView+ISearchResultContainerView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -342,6 +382,35 @@
 				90B0D9B02839DF0B00ABDC07 /* WeatherManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		90B0D9BA283A1BB100ABDC07 /* SearchTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				90B0D9BE283A1CAF00ABDC07 /* SearchTableViewCell.swift */,
+				90B0D9BF283A1CAF00ABDC07 /* SearchTableViewCell.xib */,
+				90B0D9C2283A1E4A00ABDC07 /* SearchTableViewCellSetup.swift */,
+				90B0D9C4283A1EFA00ABDC07 /* SearchTableViewCell+UITextFieldDelegate.swift */,
+			);
+			path = SearchTableViewCell;
+			sourceTree = "<group>";
+		};
+		90B0D9BB283A1C1C00ABDC07 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				90B0D9BC283A1C3E00ABDC07 /* TableViewCellSetup.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		90B0D9CE283A6B0700ABDC07 /* SearchResultTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				90B0D9CF283A6B2E00ABDC07 /* SearchResultTableViewCell.swift */,
+				90B0D9D0283A6B2E00ABDC07 /* SearchResultTableViewCell.xib */,
+				90B0D9D3283A6B4500ABDC07 /* SearchResultTableViewCellSetup.swift */,
+			);
+			path = SearchResultTableViewCell;
 			sourceTree = "<group>";
 		};
 		90E7F3282834A1A2007B1F23 /* Constants */ = {
@@ -467,7 +536,9 @@
 				90E7F32128349733007B1F23 /* SearchResultContainerView.xib in Resources */,
 				900D8E0D28347F7A00955D5E /* LaunchScreen.storyboard in Resources */,
 				900D8E0A28347F7A00955D5E /* Assets.xcassets in Resources */,
+				90B0D9C1283A1CAF00ABDC07 /* SearchTableViewCell.xib in Resources */,
 				90E7F32728349785007B1F23 /* WeatherDetailContainerView.xib in Resources */,
+				90B0D9D2283A6B2E00ABDC07 /* SearchResultTableViewCell.xib in Resources */,
 				900D8E0828347F7800955D5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,23 +667,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B0D9DA283A7F4000ABDC07 /* SearchResultViewController+SearchResultContainerView.swift in Sources */,
 				900D8E0528347F7800955D5E /* SearchViewController.swift in Sources */,
 				90E7F32A2834A1DA007B1F23 /* AppLocalConfig.swift in Sources */,
 				900D8E4528348E2000955D5E /* SearchResultViewController.swift in Sources */,
 				90B0D9B32839E6C900ABDC07 /* Constant+API.swift in Sources */,
+				90B0D9CB283A236F00ABDC07 /* SearchViewController+SearchViewContainerView.swift in Sources */,
 				90E7F31D28349401007B1F23 /* SearchViewContainerView.swift in Sources */,
+				90B0D9C7283A1FB700ABDC07 /* SearchViewContainerView+UITableView.swift in Sources */,
+				90B0D9C5283A1EFA00ABDC07 /* SearchTableViewCell+UITextFieldDelegate.swift in Sources */,
+				90B0D9CD283A633900ABDC07 /* SearchViewController+SearchViewModel.swift in Sources */,
+				90B0D9D8283A782900ABDC07 /* SearchResultContainerView+ISearchResultContainerView.swift in Sources */,
 				90B0D9B72839EB3500ABDC07 /* ForecastModel.swift in Sources */,
+				90B0D9C9283A208400ABDC07 /* SearchViewContainerView+ISearchViewContainerView.swift in Sources */,
 				90E7F32C2834A254007B1F23 /* Segue.swift in Sources */,
 				90B0D9B92839F1BF00ABDC07 /* ApiHeader.swift in Sources */,
+				90B0D9D6283A6EA600ABDC07 /* SearchResultContainerView+UITableView.swift in Sources */,
 				900D8E4728348E6500955D5E /* WeatherDetailViewController.swift in Sources */,
 				900D8E0128347F7800955D5E /* AppDelegate.swift in Sources */,
+				90B0D9C0283A1CAF00ABDC07 /* SearchTableViewCell.swift in Sources */,
 				900D8E4328348DDE00955D5E /* WeatherDetailViewModel.swift in Sources */,
+				90B0D9BD283A1C3E00ABDC07 /* TableViewCellSetup.swift in Sources */,
 				90E7F32528349779007B1F23 /* WeatherDetailContainerView.swift in Sources */,
 				900D8E3F28348D1200955D5E /* SearchViewModel.swift in Sources */,
+				90B0D9D4283A6B4500ABDC07 /* SearchResultTableViewCellSetup.swift in Sources */,
 				90B0D9B12839DF0B00ABDC07 /* WeatherManager.swift in Sources */,
 				900D8E4128348DA200955D5E /* SearchResultViewModel.swift in Sources */,
 				900D8E0328347F7800955D5E /* SceneDelegate.swift in Sources */,
 				90E7F32328349747007B1F23 /* SearchResultContainerView.swift in Sources */,
+				90B0D9D1283A6B2E00ABDC07 /* SearchResultTableViewCell.swift in Sources */,
+				90B0D9C3283A1E4A00ABDC07 /* SearchTableViewCellSetup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

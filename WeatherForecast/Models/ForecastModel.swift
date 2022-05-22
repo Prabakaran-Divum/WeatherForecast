@@ -10,7 +10,6 @@ struct ForecastModel: Codable {
     var statusCode: String
     var city: City
     var forecastList: [Forecast]
-    
     enum CodingKeys: String, CodingKey {
         case statusCode = "cod"
         case city
@@ -21,10 +20,12 @@ struct ForecastModel: Codable {
 struct Forecast: Codable {
     var weatherInfo: [Weather]
     var temperatureInfo: TemperatureInfo
-    
+    var dateAndTime: String
+
     enum CodingKeys: String, CodingKey {
         case temperatureInfo = "main"
         case weatherInfo = "weather"
+        case dateAndTime = "dt_txt"
     }
 }
 

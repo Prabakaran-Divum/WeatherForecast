@@ -29,7 +29,8 @@ extension WeatherManager {
                     let forecastModel = try JSONDecoder().decode(ForecastModel.self, from: data)
                     success(forecastModel, statusCode)
                 } catch {
-                    handleDecode(error: error)
+                    failure(error)
+//                    handleDecode(error: error)
                 }
                 return nil
             }
@@ -41,9 +42,7 @@ extension WeatherManager {
   // MARK: - JSON Model
   func convertFromJSONToModel<T: Codable>(_ response: DataResponse<Any>, decode: ((_ data: Data, _ statusCode: Int) -> T?), failure: ((_ error: Error) -> Void)? = nil) {
       switch response.result {
-//      case .success:
-      case .success(let json):
-          print("Success Response JSON: \(json)")
+      case .success:
           let statusCode = response.response?.statusCode ?? 0
           if let responseData = response.data {
               _ = decode(responseData, statusCode)

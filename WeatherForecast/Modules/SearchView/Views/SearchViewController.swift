@@ -9,16 +9,37 @@ import UIKit
 
 class SearchViewController: UIViewController {
     @IBOutlet weak var searchViewContainerView: SearchViewContainerView!
+    let searchViewModel = SearchViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupSearchViewModel()
+        setupSearchViewContainerView()
+        setupNavigation()
         // Do any additional setup after loading the view.
-        
-        WeatherManager.getForeCastInfo(with: "bangalore") { (weatherResponse, _ statusCode) in
-            print("Weather Response=>",weatherResponse)
-        } failure: { (error) in
-        }
+    }
+    
+    private func setupNavigation() {
+        self.navigationController?.navigationBar.topItem?.title = "ForeCast Search"
+    }
+    
+    private func setupSearchViewModel() {
+        searchViewModel.delegate = self
+    }
+    
+    private func setupSearchViewContainerView() {
+        searchViewContainerView.delegate = self
+        searchViewContainerView.setupSearchContainerView()
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let searchResultViewController = segue.destination as?  SearchResultViewController {
+            let cityName = searchViewModel.foreCastResponse?.city.cityName
+            navigationItem.backBarButtonItem = UIBarButtonItem(
+                title: cityName, style: .plain, target: nil, action: nil)
 
+            searchResultViewController.searchResultViewModel.cityName = searchViewModel.cityName
+            searchResultViewController.searchResultViewModel.foreCastInfo = searchViewModel.foreCastResponse
+        }
+    }
 }
-
